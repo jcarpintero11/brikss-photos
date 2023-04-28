@@ -1,0 +1,20 @@
+<p>camera works!</p>
+<img id="photo" class="photo" title="Photos" />
+<!-- <input
+  type="file"
+  accept="image/*"
+  capture="environment"
+  (change)="onFileSelected($event)"
+  #fileUpload /> -->
+
+<div>
+  <form [formGroup]="formUploadImages" (ngSubmit)="submit()">
+    <app-file-upload formControlName="imagen"></app-file-upload>
+
+    <div class="mt-5">
+      <button type="submit" class="bg-purple-600 text-white p-4 rounded-lg">
+        Subir Imagen
+      </button>
+    </div>
+  </form>
+</div>

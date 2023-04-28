@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "eslint --ext .ts src",
-    "lint-fix": "eslint --ext .ts src --fix"
+    "lint-fix": "eslint --ext .ts src --fix",
+    "serve-mobil": "ng serve --host=0.0.0.0"
   },
   "private": true,
   "dependencies": {
