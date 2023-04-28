@@ -21,7 +21,7 @@ import { FileUploadComponent } from './components/file-upload/file-upload.compon
     FileUploadComponent,
   ],
   templateUrl: './camera.component.html',
-  styleUrls: ['./camera.component.css'],
+  styleUrls: [],
 })
 export class CameraComponent {
   fileName = '';
