@@ -15,7 +15,7 @@ export class CameraService {
 
   uploadImage(formData: FormData) {
     return this.httpClient.post(
-      'http://localhost:8000/api-images/v1/upload-images',
+      'http://192.168.1.11/api-images/v1/upload-images/',
       this.httpOptions
     );
   }
